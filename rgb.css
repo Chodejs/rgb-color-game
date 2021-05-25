@@ -1,0 +1,101 @@
+body {
+	background-color: rgba(225, 255, 255, 1);
+	margin: 0;
+	font-family: "Avenir", "Montserrat";
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 11px;
+	transition: background-color .7s;
+	-webkit-transition: background .7s;
+	-moz-transition: background .7s;
+}
+
+.square:hover{
+	cursor: pointer;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+	
+}
+
+h1 {
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	background: rgba(0, 0, 225, 1);
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+	margin: 0;
+	font-weight: 500;
+	line-height: 1.1;
+	padding: 20px 0;
+	text-transform: uppercase;
+	transition: background .7s;
+	-webkit-transition: background .7s;
+	-moz-transition: background .7s;
+}
+
+#colorDisplay{
+	font-size: 183%;
+}
+
+#stripe {
+	background: rgba(225, 255, 255, 1);
+	height: 30px;
+	text-align: center;
+	color: black;
+	border-bottom: 2px solid rgba(0, 0, 225, 1);
+}
+
+.selected {
+	background: rgba(0, 0, 225, 1);
+	color: ghostwhite;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	height: 100%;
+	color: rgba(0, 0, 225, 1);
+	font-size: inherit;
+	font-family: inherit;
+	transition: all .7s;
+	-webkit-transition: background .7s;
+	-moz-transition: background .7s;
+	border-radius: 5.6px;
+	outline: none;
+}
+
+button:hover{
+	color: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 225, 1);
+}
+
+button:focus, button:active{
+	border: none;
+}
+#message{
+	width: 30%;
+	margin: 0 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
